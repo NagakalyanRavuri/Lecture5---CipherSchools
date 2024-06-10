@@ -1,0 +1,25 @@
+package operators;
+
+public class Operators {
+
+	public static void main(String[] args) {
+		int x = 5;
+		int y = 10;
+		int z = x+y;
+		//x,y are operands and '+' is operator
+		System.out.println(z);
+		int m  = 5;
+		int n = ++m;
+		System.out.println("Value of m is "+ m+" and Value of n is "+n);
+		int p = 6;
+		int q = p++;
+		System.out.println("Value of p is "+p+" and Value of q is "+q);
+		int r = --p;
+		int s = p--;
+		System.out.println("Value of r is "+r+" and value of s is "+s);
+		
+		
+		
+	}
+
+}
